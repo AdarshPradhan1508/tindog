@@ -1,0 +1,232 @@
+
+
+
+#title
+{
+    color: #ffff;
+   
+    background-color: #ff4c68;
+ 
+    padding:70px;
+  
+    /* background: linear-gradient(#f43451,#ffff); */
+}
+.navbar-brand
+{
+    font-family: 'ubuntu','sans-serif';
+    font-size: 2.5rem;
+    padding-left: 35px;
+}
+/* .
+{
+    font-family: 'montserrat','sans-serif';
+} */
+h1{
+    font-family: 'Montserrat','sans-serif';
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.nav-item
+{
+    font-size: 25px;
+}
+.navbar-nav{
+   padding-right: 15%;
+}
+.row
+{
+    margin-top: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.navbar
+{
+    background-color: #ff4c68;
+    padding-bottom: 3.5rem;
+    z-index: 1px;
+}
+.btn{
+   padding:10px;
+}
+.icons
+{
+    column-rule-color: #ff4c68;
+}
+.icons::hover
+{
+    fill-opacity: #ff4c68;
+}
+.fontz
+{
+    /* background-color: #ff4c68;
+    background: #ff4c68; */
+    color: #ef8172;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.fontz:hover
+{
+    /* background-color: #ff4c68;
+    background: #ff4c68; */
+    color:#ff4c68;
+    cursor: pointer;
+    
+    transition-duration: 0.4ms;
+ 
+}
+#features
+{
+    /* background-color: #4C68FF; */
+    /* background-color: rgb(227, 180, 180); */
+    padding : 7% 15%;
+    /* background: linear-gradient(#ffff,#ef8172); */
+    background-color: #ffff;
+    position: relative;
+
+   
+}
+.featurebox
+{
+    padding:5%;
+    text-align: center;
+}
+h3{
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 900;
+    
+  
+
+ 
+}
+h2{
+    font-family: 'Montserrat','sans-serif';
+    font-size: 3rem;
+    line-height: 4rem;
+   
+    font-weight: 700;
+}
+#testimonials
+{
+   /* padding: 7% 15%; */
+   text-align: center; 
+   background-color: #ef8172;
+   color: #ffff;
+   
+}
+.pebble
+{
+   width: 20%;
+   border-radius: 50%;
+   margin: 20px;
+}
+#press
+{
+    background-color:#eb6767;
+    text-align: center;
+    padding:20px;
+   margin: 0px;
+   
+    /* gradientbackground: #ff4c68; */
+    background: linear-gradient(#ef8172,#ff4c68);
+}
+.presslogo
+{
+    padding-left:10px;
+
+padding-right:10px ;
+margin-left: 20px;
+margin-right: 20px;
+width: 13%;
+}
+.carousel-item
+{
+padding: 7% 15%;
+}
+.card
+{
+   margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+#pricing
+{
+    padding: 100px;
+}
+
+.card-header
+{
+    background:linear-gradient(#ff4c68,#83a2d5)
+}
+.card-body
+{
+    background-color:#83a2d5;
+}
+.mny
+{
+width: 100%;
+margin-top: 15px;
+
+}
+#cta
+{
+    text-align: center;
+    background-color: #ff4c68;
+    padding:10px;
+}
+.ctab
+{
+    width:15%;
+    margin-left:10px;
+    margin-right:10px;
+}
+#footer
+{
+    text-align: center;
+    margin-top: 40px;
+    padding:10px;
+    background-color: #ff4c68;
+    margin:0;
+   
+}
+.iphone{
+  
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+   
+    width: 20%;
+
+
+}
+
+@media  (max-width: 1280px){
+    
+        .iphone{
+            transform: rotate(0);
+            position: static;
+            right:0%;
+            margin-top: 20px;
+            text-align: center;
+            width: 50%;
+        }
+        #features
+        {
+            z-index:0;
+            position:static;
+        }
+        #title
+        {
+            text-align: center;
+        }
+        .navbar{
+         margin-top: 0px;
+         
+        }
+    
+} 
+p{
+    margin-top:30px;
+    margin-bottom: 0px;
+}
+
