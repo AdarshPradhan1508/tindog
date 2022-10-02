@@ -171,7 +171,7 @@ margin-top: 15px;
 #cta
 {
     text-align: center;
-    background-color: #ff4c68;
+   background: linear-gradient(#c50a51,#ff4c68);
     margin-top:20px;
 }
 .ctab1
