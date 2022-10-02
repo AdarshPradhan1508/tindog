@@ -172,7 +172,31 @@ margin-top: 15px;
 {
     text-align: center;
     background-color: #ff4c68;
-    padding:10px;
+    margin-top:20px;
+}
+.ctab1
+{font-family: 'ubuntu','sans-serif';
+    width:30%;
+    margin-top: 30px;
+    margin-right:50px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.ctab2
+{ font-family: 'ubuntu','sans-serif';
+    width:30%;
+    margin-top: 30px;
+    margin-left:50px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.ctac
+{ font-family: 'Montserrat-Black';
+    
+    color: #ffff;
+    line-height: 1.5;
+    padding:7% 17%;
 }
 .ctab
 {
@@ -186,7 +210,7 @@ margin-top: 15px;
     margin-top: 40px;
     padding:10px;
     background-color: #ff4c68;
-    margin:0;
+ margin:0;
    
 }
 .iphone{
@@ -228,5 +252,19 @@ margin-top: 15px;
 p{
     margin-top:30px;
     margin-bottom: 0px;
+}
+.social-medico
+{
+    color:#ffff;
+    text-align: center;
+}
+.sico
+{
+    margin:10px;
+}
+.linco
+{
+    text-decoration: none;
+    color:#ffff;
 }
 
